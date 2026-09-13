@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phishing Awareness Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="warning">
+        ⚠️ PHISHING AWARENESS TRAINING — DEMO ONLY
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Training Login</h1>
+
+            <p class="subtitle">
+                This is a simulated login page for cybersecurity education.
+            </p>
+
+            <form id="loginForm">
+
+                <label for="username">
+                    Username
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="demo_student"
+                    required
+                >
+
+                <label for="password">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="TRAINING_ONLY_123"
+                    required
+                >
+
+                <button type="submit">
+                    Login
+                </button>
+
+            </form>
+
+            <p class="safe">
+                🔒 No credentials are stored or transmitted.
+            </p>
+
+        </div>
+
+        <div id="result" class="result hidden">
+
+            <h2>🚨 Phishing Simulation!</h2>
+
+            <p>
+                You have reached the training result page.
+            </p>
+
+            <h3>What should you check?</h3>
+
+            <ul>
+                <li>Check the website address/domain.</li>
+                <li>Do not trust unexpected login links.</li>
+                <li>Check spelling and unusual wording.</li>
+                <li>Do not reuse passwords.</li>
+                <li>Use MFA / 2FA on important accounts.</li>
+            </ul>
+
+            <div class="lesson">
+
+                <strong>Important:</strong>
+
+                <p>
+                    A real phishing page may attempt to collect
+                    credentials. This training page does not.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
